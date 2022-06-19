@@ -1,16 +1,13 @@
-def evenodd(a):
-    if a%2==0:
-        if a>=2 and a<=5:
-            return "not weird"
+def evenodd(number):
+    if number%2==0:
+        if number>=2 and number<=5:
+            print("not weird")
         elif:
-            if a>=6 and a<=20:
-                return "weird"
-            if a>20:
-                return "not weird"
+            if number>=6 and number<=20:
+                print("weird")
+            if number>20:
+                print("not weird")
     else:
-        return "weird"                     
-a = int(input("Please enter number : "))
-ans = evenodd(a)
-print("return value is")
-print(ans) 
-            
+        print("weird")
+number = int(input("Please enter number : "))
+evenodd(number)

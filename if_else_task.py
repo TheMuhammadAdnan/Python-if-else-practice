@@ -1,8 +1,8 @@
 def evenodd(a):
     if a%2==0:
         if a>=2 and a<=5:
-                return "not weird"
-        else:
+            return "not weird"
+        elif:
             if a>=6 and a<=20:
                 return "weird"
             if a>20:
